@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>L2DM SHOP OFFICIEL - 42760946</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,900,sans-serif}
+body{background:#fff;color:#000}
+.header{background:#000;color:#fff;text-align:center;padding:22px}
+.header h1{font-size:60px;letter-spacing:12px}
+.header p{color:#ff0040;letter-spacing:4px;margin-top:5px;font-size:14px}
+.hero{height:70vh;position:relative;overflow:hidden;background:#000}
+.hero video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+.hero-content{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,0.55);text-align:center}
+.badge{background:#ff0040;color:#fff;padding:13px 26px;border-radius:30px;margin-top:15px;font-size:13px;letter-spacing:1px}
+.mid{height:60vh;position:relative;overflow:hidden;background:#111;margin:12px 0;border-top:4px solid #ff0040;border-bottom:4px solid #ff0040}
+.mid video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+.cat{background:#000;color:#fff;text-align:center;padding:17px;letter-spacing:6px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:12px;max-width:1000px;margin:0 auto;background:#fff}
+@media(min-width:768px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{border:1px solid #eee;border-radius:18px;overflow:hidden;background:#f9f9f9;display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:#fff;display:block}
+.info{padding:10px;display:flex;flex-direction:column;flex:1}
+.title{font-size:11px;font-weight:900;color:#333;min-height:28px;line-height:1.2}
+select{width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;margin-top:6px;font-weight:700}
+.price{margin-top:auto;padding-top:10px;text-align:center;border-top:1px solid #eee;margin-top:12px}
+.price b{color:#ff0040;font-size:26px}
+.btn{width:100%;padding:12px;background:#25D366;color:#fff;border:none;border-radius:30px;font-weight:900;margin-top:8px;cursor:pointer;font-size:12px;letter-spacing:0.5px}
+.footer{background:#000;color:#777;text-align:center;padding:18px;font-size:11px;letter-spacing:1px}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>L2DM</h1>
+<p>Les 2 DEMON👿👿- GTD</p>
+</div>
+
+<!-- VIDEO 1 -->
+<div class="hero">
+<video autoplay muted loop playsinline>
+<source src="video1.mp4" type="video/mp4">
+</video>
+<div class="hero-content">
+<h1 style="font-size:48px;color:#fff">L2DM SHOP</h1>
+<div class="badge">T-SHIRT 500 MRU | CAPUCHE 700 MRU | 42760946</div>
+</div>
+</div>
+
+<!-- T-SHIRTS 500 MRU EN BAS -->
+<div class="cat">T-SHIRTS - 500 MRU</div>
+<div class="grid">
+<div class="card"><img src="t1.jpg"><div class="info"><div class="title">T1 - COLLECTION 6 T-SHIRTS L2DM</div><select id="t1"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>500 MRU</b></div><button class="btn" onclick="order('T1 COLLECTION 6 T-SHIRTS',500,'t1')">COMMANDER 42760946</button></div></div>
+<div class="card"><img src="t2.jpg"><div class="info"><div class="title">T2 - T-SHIRT ROSE GTD</div><select id="t2"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>500 MRU</b></div><button class="btn" onclick="order('T2 T-SHIRT ROSE GTD',500,'t2')">COMMANDER 42760946</button></div></div>
+<div class="card"><img src="t3.jpg"><div class="info"><div class="title">T3 - T-SHIRT NOIR L2DM BLANC</div><select id="t3"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>500 MRU</b></div><button class="btn" onclick="order('T3 T-SHIRT NOIR L2DM BLANC',500,'t3')">COMMANDER 42760946</button></div></div>
+<div class="card"><img src="t4.jpg"><div class="info"><div class="title">T4 - T-SHIRT BLANC GTD NOIR</div><select id="t4"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>500 MRU</b></div><button class="btn" onclick="order('T4 T-SHIRT BLANC GTD NOIR',500,'t4')">COMMANDER 42760946</button></div></div>
+</div>
+
+<!-- VIDEO 2 -->
+<div class="mid">
+<video autoplay muted loop playsinline controls>
+<source src="video2.mp4" type="video/mp4">
+</video>
+</div>
+
+<!-- CAPUCHES 700 MRU EN BAS -->
+<div class="cat">CAPUCHES / HOODIES - 700 MRU</div>
+<div class="grid">
+<div class="card"><img src="t5.jpg"><div class="info"><div class="title">T5 - HOODIE ROSE GTD + L2DM NOIR</div><select id="t5"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>700 MRU</b></div><button class="btn" onclick="order('T5 HOODIE ROSE',700,'t5')">COMMANDER 42760946</button></div></div>
+<div class="card"><img src="t6.jpg"><div class="info"><div class="title">T6 - HOODIE NOIR GTD + L2DM BLANC</div><select id="t6"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>700 MRU</b></div><button class="btn" onclick="order('T6 HOODIE NOIR',700,'t6')">COMMANDER 42760946</button></div></div>
+<div class="card"><img src="t7.jpg"><div class="info"><div class="title">T7 - HOODIE ROSE COUPLE</div><select id="t7"><option>S</option><option selected>M</option><option>L</option><option>XL</option><option>XXL</option></select><div class="price"><b>700 MRU</b></div><button class="btn" onclick="order('T7 HOODIE ROSE COUPLE',700,'t7')">COMMANDER 42760946</button></div></div>
+</div>
+
+<div class="footer">
+L2DM SHOP OFFICIEL - NOUAKCHOTT<br>
+T-SHIRT 500 MRU | CAPUCHE 700 MRU | WHATSAPP 42760946<br>
+BANKILY / SEDAD / MASRVI
+</div>
+
+<script>
+function order(nom,prix,id){
+let taille=document.getElementById(id).value;
+let msg=`Salam L2DM!%0AJe veux:%0A👕 ${nom}%0A📏 Taille:${taille}%0A💰 ${prix} MRU%0A📍 NKTT%0A💳 42760946`;
+window.open(`https://wa.me/22242760946?text=${msg}`,'_blank');
+}
+</script>
+</body>
+  </html>
